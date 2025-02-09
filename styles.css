@@ -26,5 +26,33 @@
 }
 .todo-app h2 img {
     width: 30px;
+    max-width: auto;
     margin-left: 10px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dbddde9e;
+    border-radius: 30px;
+    padding-left: 20px;
+
+    margin-bottom: 25px;
+}
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #b2eef6;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
 }
